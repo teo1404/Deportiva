@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stactic/style.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="logo">Tienda Deportiva</div>
+        <div class="cart-icon">
+            <span id="cart-count">0</span> 🛒
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="searchProduct()">
+        </div>
+
+        <div class="checkout">
+            <button onclick="checkout()">Finalizar Compra</button>
+            <div id="cartTotal"></div>
+        </div>
+    </header>
+    <!-- Campo de cupón -->
+    <div class="coupon-section">
+        <input type="text" id="couponInput" placeholder="Código de Cupón">
+        <button onclick="applyCoupon()">Aplicar Cupón</button>
+    </div>
+
+    <nav>
+        <select id="categoryFilter" onchange="filterByCategory()">
+            <option value="all">Todos</option>
+            <option value="camisetas">Camisetas</option>
+            <option value="pantalones">Pantalones</option>
+            <option value="pelotas">Pelotas</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+    </nav>
+
+
+    <section class="products">
+        <div class="product-card">
+            <img src="camiseta.jpg" alt="Camiseta">
+            <h3>Camiseta de Fútbol</h3>
+            <p>$50</p>
+            <button onclick="addToCart()">Añadir al Carrito</button>
+        </div>
+    </section>
+
+
+
+
+    <script src="data/carrito.js"></script>
+    <script src="data/productos.js"></script>
+    <script src="data/filtros.js"></script>
+    <script src="data/barra.js"></script>
+    <script src="data/cupones.js"></script>
+
+
+</body>
+
+</html>
