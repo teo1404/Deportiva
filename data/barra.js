@@ -37,7 +37,7 @@ function searchProduct() {
   
       alert(`El total de tu compra es $${total}. ¡Gracias por tu compra!`);
       clearCart();
-      saveProducts();  // Guardar el stock actualizado en el JSON
+      saveProducts();  
     }
   }
   

@@ -1,6 +1,6 @@
 const validCoupons = {
-    "DEPORTES10": 0.1,  // 10% de descuento
-    "DEPORTES20": 0.2   // 20% de descuento
+    "DEPORTES10": 0.1, 
+    "DEPORTES20": 0.2   
   };
   
   function applyCoupon() {
