@@ -71,7 +71,47 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_659049-MLA52184175527_102022-O.webp",
         "categoria": "accesorios",
         "stock": 25
-      }
+      },
+      {
+        "id": 1,
+        "nombre": "Camiseta de Fútbol",
+        "precio": 50,
+        "imagen": "https://acdn.mitiendanube.com/stores/002/003/574/products/arda451-14c913f693c7d0cb9b17175595820162-480-0.jpg",
+        "categoria": "camisetas",
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "nombre": "Pelota de Fútbol",
+        "precio": 30,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI5VAgja_kiqEXV68N2UneWWCC3wJLLMTLPw&s",
+        "categoria": "pelotas",
+        "stock": 5
+      },
+      {
+        "id": 3,
+        "nombre": "Pantalones de Fútbol",
+        "precio": 40,
+        "imagen": "https://img.freepik.com/vector-premium/diseno-pantalones-deportivos-futbol-plantilla-imprimir_688126-135.jpg",
+        "categoria": "pantalones",
+        "stock": 15
+      },
+      {
+        "id": 4,
+        "nombre": "Pelota de Rugby",
+        "precio": 35,
+        "imagen": "https://celadasa.vtexassets.com/arquivos/ids/246534-800-auto?v=638369479003700000&width=800&height=auto&aspect=true",
+        "categoria": "pelotas",
+        "stock": 8
+      },
+      {
+        "id": 5,
+        "nombre": "Camiseta de Básquet",
+        "precio": 55,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/983/293/products/2641-837ce3c7e6ea89e90516761413347752-640-0.png",
+        "categoria": "camisetas",
+        "stock": 12
+      } 
     ]
   }
   
